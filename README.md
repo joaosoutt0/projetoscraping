@@ -40,14 +40,20 @@ Pipeline ETL Python - Web Scraping/
 
 1- Para rodar o Web Scraping tem que escrever no terminal:
 
-'''bash
+'''
 scrapy crawl mercadolivre -o ../../data/data.jasonl
 '''
 
 2- Para rodar o pandas tem que escrever no terminal (dentro da pasta SRC):
 
-'''bash
+'''
 python transformacao/main.py
+'''
+
+3- Para rodar o streamlit tem que escrever no terminal (dentro da pasta SRC):
+
+'''
+Streamlit run dashboard/main.py
 '''
 
 ### Extração
